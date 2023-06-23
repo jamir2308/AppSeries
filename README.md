@@ -34,6 +34,8 @@ Por favor, sigue las instrucciones de instalación y ejecución en cada uno de e
 
 Para arrancar la aplicación, usa el siguiente comando:
 
+```npm start```
+
 ### Pruebas
 
 Este proyecto incluye pruebas unitarias y de integración creadas con Jest y React Testing Library. Para ejecutar las pruebas, usa el siguiente comando:
