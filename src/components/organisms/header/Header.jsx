@@ -28,6 +28,7 @@ const Header = ({ setLocale }) => {
     }
 
     const handleLocation = (page) => {
+        setIsToggleOpen(false);
         navigateTo(page)
     }
 

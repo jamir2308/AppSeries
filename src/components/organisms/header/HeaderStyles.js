@@ -50,15 +50,18 @@ export const HeaderLogo = styled.div`
   color: #fab005;
   font-weight: bold;
 `;
-export const NavManu = styled.ul`
+export const NavManu = styled.ul.withConfig({
+  shouldForwardProp: (prop) => prop !== 'isToggleOpen',
+})`
   list-style: none;
   display: flex;
   padding: 0px 30px;
   align-items: center;
   @media screen and (max-width: 768px) {
     position: absolute;
-    display: ${({ isToggleOpen }) => (isToggleOpen ? "block" : "none")};
     flex-direction: column;
+    display: ${({ isToggleOpen }) => (isToggleOpen ? "flex" : "none")};
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -66,6 +69,7 @@ export const NavManu = styled.ul`
     padding: 0px;
     background: #44a8f4;
     color: #fab005;
+    z-index: 1000;
   }
 `;
 
