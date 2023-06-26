@@ -1,6 +1,6 @@
 # AppSeries
 
-Este proyecto utiliza React, Styled Components, Jest, React Testing Library y Micro Servicios con Module Federation para crear una aplicación altamente modular, escalable y bien probada.
+Este proyecto utiliza React, Styled Components, Jest, React Testing Library y Micro Frontend con Module Federation para crear una aplicación altamente modular, escalable y bien probada.
 
 ### Pre-requisitos
 Debes tener instalado en tu sistema:
@@ -35,6 +35,8 @@ Por favor, sigue las instrucciones de instalación y ejecución en cada uno de e
 Para arrancar la aplicación, usa el siguiente comando:
 
 ```npm start```
+
+La aplicación debería estar corriendo en http://localhost:3200.
 
 ### Pruebas
 
