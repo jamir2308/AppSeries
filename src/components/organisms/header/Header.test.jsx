@@ -4,14 +4,14 @@ import { MemoryRouter, Routes, Route } from 'react-router-dom'
 import '@testing-library/jest-dom/extend-expect';
 import Header from './Header';
 
-test('Se renderiza sin errores', () => {
+test('Error-free rendering', () => {
     render(<MemoryRouter>
         <Header setLocale={() => { }} />
     </MemoryRouter>);
 });
 
 
-test('handleLocation se llama con el argumento correcto al hacer clic en NavMenuList', () => {
+test('handleLocation is called with the correct argument when clicking on NavMenuList', () => {
     function TestComponent({ page }) {
         return <h1 data-testid={page}>{page}</h1>;
     }

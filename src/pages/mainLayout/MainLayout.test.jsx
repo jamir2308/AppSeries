@@ -8,7 +8,7 @@ jest.mock('react-router-dom', () => ({
   Outlet: () => <div>Outlet</div>,
 }));
 
-test('Se renderiza sin errores', () => {
+test('Error-free rendering', () => {
     render(
       <MemoryRouter >
         <MainLayout />
@@ -16,7 +16,7 @@ test('Se renderiza sin errores', () => {
     );
 });
 
-test('Renderiza el componente Outlet', () => {
+test('Render the Outlet component', () => {
     render(
       <MemoryRouter>
         <MainLayout />
