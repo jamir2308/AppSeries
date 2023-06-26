@@ -1,6 +1,6 @@
 # AppSeries
 
-Este proyecto utiliza React, Styled Components, Jest, React Testing Library y Micro Frontend con Module Federation para crear una aplicación altamente modular, escalable y bien probada.
+Este proyecto utiliza React, Styled Components, Jest, React Testing Library y Micro Frontend con Module Federation para crear una aplicación altamente modular y escalable.
 
 ### Pre-requisitos
 Debes tener instalado en tu sistema:
